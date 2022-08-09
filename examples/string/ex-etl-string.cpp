@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "../../etl_cpp/include/etl/string.h"
+#include "../../etl/include/etl/string.h"
 
 constexpr size_t MAX_STRING_LENGTH = 150;
 
