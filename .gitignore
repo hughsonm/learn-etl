@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Markdown compiled to html
+*.html
+
