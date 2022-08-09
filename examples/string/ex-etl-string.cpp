@@ -2,6 +2,12 @@
 #include <string>
 #include "../../etl/include/etl/string.h"
 
+// Compile me:
+// 1. cd into examples/string
+// 2. c++ -o ex-etl-string ex-etl-string.cpp
+// Run me:
+// ./ex-etl-string 
+
 constexpr size_t MAX_STRING_LENGTH = 150;
 
 int main()

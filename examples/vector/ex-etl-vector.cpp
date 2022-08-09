@@ -3,6 +3,11 @@
 #include <vector>
 #include "../../etl/include/etl/vector.h"
 
+// Compile me:
+// 1. cd into examples/vector
+// 2. c++ -o ex-etl-vector ex-etl-vector.cpp
+// Run me:
+// ./ex-etl-vector
 struct Monkey
 {
     double height = 5.2;
