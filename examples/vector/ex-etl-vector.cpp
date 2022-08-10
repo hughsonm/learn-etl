@@ -45,5 +45,12 @@ int main()
     {
         std::cout << monkey << '\n';
     }
+
+    std::cout << "\nGo home, monkeys! >:(\n";
+    barrel.clear();
+    for (Monkey const &monkey : barrel)
+    {
+        std::cout << monkey << '\n';
+    }
     return (0);
 }
