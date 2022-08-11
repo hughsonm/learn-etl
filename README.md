@@ -10,4 +10,4 @@ Examples to help learn how and why to use the Embedded Template Library
 > 
 > **Exception** -  Large parts of the standard library rely on **dynamic allocation** (free store). These parts, notably the containers but not the algorithms, are unsuitable for some hard-real-time and **embedded applications**. In such cases, consider providing/using similar facilities, e.g., a standard-library-style container implemented using a pool allocator.
 
-The C++ standard library provides [containers](https://en.cppreference.com/w/cpp/container) and [algorithms](https://en.cppreference.com/w/cpp/algorithm)
+The [Embedded Template Library](https://www.etlcpp.com/) provides 'similar facilities' to the standard template library, without any dynamic memory allocation. Woo hoo!
